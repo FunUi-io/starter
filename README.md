@@ -2,10 +2,7 @@
 <h3>Learn how to use the framework at our official website 👎</h3>
 https://funui.netlify.app
 
-<img
-src="https://raw.githubusercontent.com/FunUi-io/starterImage/main/starter.png"
-width="80%"
->
+<img src="https://raw.githubusercontent.com/FunUi-io/starterImage/main/starter.png" width="80%" />
 
 <h3>Using Npm</h3>
 Install the package via NPM
