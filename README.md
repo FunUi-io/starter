@@ -1,38 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Create Beutiful UI/UX Components</h1>
+<h3>Learn how to use the framework at our official website 👎</h3>
+https://funui.netlify.app
 
-## Getting Started
+<img
+src="https://raw.githubusercontent.com/FunUi-io/starterImage/main/starter.png"
+width="80%"
+>
 
-First, run the development server:
+<h3>Using Npm</h3>
+Install the package via NPM
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<pre>
+npm install funuicss
+</pre>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Import CSS file</h3>
+Import the css file at your entry point to apply our classes,for example: _app.js, _app.jsx, index.js, index,jsx files
+<pre>
+import 'funuicss/css/fun.css'
+</pre>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h3>Clone The Reposotory</h3>
+You can use the CDN for your HTML file, you can only use our css defined classes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<pre>
+git clone git@github.com:FunUi-io/starter.git
+</pre>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h3>CDN</h3>
+You can use the CDN for your HTML file, you can only use our css defined classes
 
-## Learn More
+<pre>
+https://unpkg.com/funuicss@latest/css/fun.css
+</pre>
 
-To learn more about Next.js, take a look at the following resources:
+<h3>Import CDN</h3>
+You can also import the CDN in your CSS file
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<pre>
+@import url('https://unpkg.com/funuicss@latest/css/fun.css');
+</pre>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3>Download</h3>
+Download the CSS File and link it to your HTML Document
 
-## Deploy on Vercel
+https://github.com/FunUi-io/starter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<pre>
+<link rel="stylesheet" href="./css/fun.css">
+</pre>
